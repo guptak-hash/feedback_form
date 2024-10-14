@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Feedback Form</title>
+</head>
+<body>
+
+<h2>Feedback Form</h2>
+<form action="#" method="post">
+    <label for="feedback">Please provide your feedback:</label> 
+    <select id="feedback" name="feedback"> 
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="poor">Poor</option>
+        <option value="very_poor">Very Poor</option>
+    </select>
+    <br><br>
+    <!-- <input type="submit" value="Submit"> -->
+
+    <label>Your Message</label>
+    <textarea placeholder="type your message here"></textarea>
+    <br><br>
+    
+    <p>Please select a rating:</p>
+    <input type="radio" name="rating"> 1 Star
+    <!-- <label>
+        <input type="radio" name="rating" value="1"> 1 Star
+    </label> -->
+
+    <input type="radio" name="rating"> 2 Stars
+    <input type="radio" name="rating"> 3 Stars
+    <input type="radio" name="rating"> 4 Stars
+    <input type="radio" name="rating"> 5 Stars
+    <br><br><br>
+    <!-- <label>
+        <input type="radio" name="rating" value="2"> 2 Stars
+    </label> -->
+    <label>Type your age:</label>
+    <input placeholder="age" type="number" min="10" max="100">
+    <br><br><br>
+
+    <label>Type your mail id:</label>
+    <input placeholder="This field is mandatory", type="text">
+    <br><br><br>
+    
+    <label>Type your password here:</label>
+    <input placeholder="minimum 8 characters", type="text">
+    <br><br><br>
+    <label>Website URL:</label>
+    <input placeholder="optional", type="text">
+    <br><br><br>
+    <input type="checkbox">I agree to the terms & conditions.
+
+</form> 
+
+
+</body>
+</html>
